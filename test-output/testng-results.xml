@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="8" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-07T12:24:30 IST" name="Suite" finished-at="2023-08-07T12:24:30 IST" duration-ms="116">
+    <groups>
+      <group name="bvt">
+        <method signature="TestNGDemo.purchase()[pri:3, instance:com.qa.tests.TestNGDemo@3527942a]" name="purchase" class="com.qa.tests.TestNGDemo"/>
+        <method signature="TestNGDemo.logout()[pri:4, instance:com.qa.tests.TestNGDemo@3527942a]" name="logout" class="com.qa.tests.TestNGDemo"/>
+      </group> <!-- bvt -->
+      <group name="regression">
+        <method signature="TestNGDemo.loginUser()[pri:2, instance:com.qa.tests.TestNGDemo@3527942a]" name="loginUser" class="com.qa.tests.TestNGDemo"/>
+        <method signature="TestNGDemo.logout()[pri:4, instance:com.qa.tests.TestNGDemo@3527942a]" name="logout" class="com.qa.tests.TestNGDemo"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestNGDemo.registerUser()[pri:1, instance:com.qa.tests.TestNGDemo@3527942a]" name="registerUser" class="com.qa.tests.TestNGDemo"/>
+        <method signature="TestNGDemo.logout()[pri:4, instance:com.qa.tests.TestNGDemo@3527942a]" name="logout" class="com.qa.tests.TestNGDemo"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-08-07T12:24:30 IST" name="Test" finished-at="2023-08-07T12:24:30 IST" duration-ms="116">
+      <class name="com.qa.tests.TestNGTest">
+        <test-method signature="loginUser()[pri:0, instance:com.qa.tests.TestNGTest@2ea41516]" started-at="2023-08-07T12:24:30 IST" name="loginUser" finished-at="2023-08-07T12:24:30 IST" duration-ms="8" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[User should register first]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: User should register first
+at com.qa.tests.TestNGTest.loginUser(TestNGTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method signature="purchase()[pri:0, instance:com.qa.tests.TestNGTest@2ea41516]" started-at="2023-08-07T12:24:30 IST" name="purchase" finished-at="2023-08-07T12:24:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchase -->
+      </class> <!-- com.qa.tests.TestNGTest -->
+      <class name="com.qa.tests.TestNGDemo">
+        <test-method signature="registerUser()[pri:1, instance:com.qa.tests.TestNGDemo@3527942a]" started-at="2023-08-07T12:24:30 IST" name="registerUser" finished-at="2023-08-07T12:24:30 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="loginUser()[pri:2, instance:com.qa.tests.TestNGDemo@3527942a]" started-at="2023-08-07T12:24:30 IST" name="loginUser" finished-at="2023-08-07T12:24:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUser -->
+        <test-method signature="purchase()[pri:3, instance:com.qa.tests.TestNGDemo@3527942a]" started-at="2023-08-07T12:24:30 IST" name="purchase" finished-at="2023-08-07T12:24:30 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchase -->
+        <test-method signature="logout()[pri:4, instance:com.qa.tests.TestNGDemo@3527942a]" started-at="2023-08-07T12:24:30 IST" name="logout" finished-at="2023-08-07T12:24:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.qa.tests.TestNGDemo -->
+      <class name="com.qa.tests.TestNGAnnotations">
+        <test-method is-config="true" signature="test7()[pri:0, instance:com.qa.tests.TestNGAnnotations@3f6f6701]" started-at="2023-08-07T12:24:30 IST" name="test7" finished-at="2023-08-07T12:24:30 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="test5()[pri:0, instance:com.qa.tests.TestNGAnnotations@3f6f6701]" started-at="2023-08-07T12:24:30 IST" name="test5" finished-at="2023-08-07T12:24:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="test6()[pri:0, instance:com.qa.tests.TestNGAnnotations@3f6f6701]" started-at="2023-08-07T12:24:30 IST" name="test6" finished-at="2023-08-07T12:24:30 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method is-config="true" signature="test8()[pri:0, instance:com.qa.tests.TestNGAnnotations@3f6f6701]" started-at="2023-08-07T12:24:30 IST" name="test8" finished-at="2023-08-07T12:24:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+      </class> <!-- com.qa.tests.TestNGAnnotations -->
+      <class name="com.qa.tests.TestNGDataProvider">
+        <test-method signature="testMain(java.lang.String)[pri:0, instance:com.qa.tests.TestNGDataProvider@942a29c]" started-at="2023-08-07T12:24:30 IST" name="testMain" data-provider="browserData" finished-at="2023-08-07T12:24:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chromium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method signature="testMain(java.lang.String)[pri:0, instance:com.qa.tests.TestNGDataProvider@942a29c]" started-at="2023-08-07T12:24:30 IST" name="testMain" data-provider="browserData" finished-at="2023-08-07T12:24:30 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+        <test-method signature="testMain(java.lang.String)[pri:0, instance:com.qa.tests.TestNGDataProvider@942a29c]" started-at="2023-08-07T12:24:30 IST" name="testMain" data-provider="browserData" finished-at="2023-08-07T12:24:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMain -->
+      </class> <!-- com.qa.tests.TestNGDataProvider -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
